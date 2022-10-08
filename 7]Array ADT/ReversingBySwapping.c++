@@ -26,5 +26,5 @@ int main()
     {
         cout<<fun[i]<<" ";
     }
-
+    return 0;
 }
