@@ -2,20 +2,17 @@
 using namespace std;
 vector <int> &reverse(vector <int> &arr)
 {
-    int x;
     int size=arr.size();
     vector <int> ar1;
     for(int i=size-1;i>=0;i--)
     {
-        x=arr[i];
-        ar1.push_back(x);
-        
+        ar1.push_back(arr[i]);
     }
     arr.clear();
     for(int i=0;i<size;i++)
     {
-        x=ar1[i];
-        arr.push_back(x);
+        
+        arr.push_back(ar1[i]);
     }
     
     return arr;
