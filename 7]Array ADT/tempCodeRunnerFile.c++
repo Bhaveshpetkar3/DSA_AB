@@ -1,4 +1,4 @@
 for(int i=0;i<n;i++)
     {
-        cout<<ar2[i]<<" ";
+        cout<<fun[i];
     }
